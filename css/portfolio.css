@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Raleway&display=swap");
+.container {
+  font-family: "Raleway", Arial, sans-serif;
+  width: 80vw !important;
+  background-color: #CBF3F0 !important;
+}
+
+.container .card {
+  border-color: #386299 !important;
+  background-color: #CBF3F0;
+}
+
+.container .card:hover {
+  background-color: #62bbc1;
+  color: #FEFDF4;
+}
+
+.container .card:hover h5 {
+  color: black;
+}
+
+.container .card img {
+  height: 50%;
+}
+
+.container .card .card-text {
+  min-height: 15vh !important;
+}
+
+@media screen and (max-width: 411px) {
+  .container {
+    width: 100vw !important;
+  }
+}
+/*# sourceMappingURL=portfolio.css.map */

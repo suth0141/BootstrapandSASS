@@ -1,0 +1,31 @@
+header{
+    font-family: $bodyFont;
+    height:40vh;
+    background-color: $metalicSeawed;
+    .row{
+        color: $babyPowder;
+        margin-right:0px !important;
+        div{
+            .display-3{
+                @media screen and (max-width:492px) {
+                    font-size: 3rem !important;
+                }
+                @media screen and (max-width:768px) and (min-width:493px) {
+                    font-size: 3.5rem !important;
+                }
+            }
+            img{
+                height: 20vh !important;
+                margin-top: 10vh;
+                
+                transition: all;
+                &:hover{
+                    border: 3px solid $maastrichiBlue;
+                    transform: scale(1.3);
+                }
+            }
+            
+        }
+    }
+
+}

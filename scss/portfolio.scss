@@ -1,0 +1,26 @@
+@import "./variable";
+.container {
+  font-family: $bodyFont;
+  width: 80vw !important;
+  background-color: $lightGreay !important;
+  .card {
+    border-color: rgb(56, 98, 153) !important;
+    background-color: $lightGreay;
+    &:hover {
+      background-color: #62bbc1;
+      h5 {
+        color: black;
+      }
+      color: $babyPowder;
+    }
+    img {
+      height: 50%;
+    }
+    .card-text {
+      min-height: 15vh !important;
+    }
+  }
+  @media screen and (max-width: 411px) {
+    width: 100vw !important;
+  }
+}

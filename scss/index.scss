@@ -1,0 +1,27 @@
+@import "./variable";
+.container{
+    font-family: $bodyFont;
+    width: 80vw !important;
+    background-color: $lightGreay;
+    div{
+        margin-right: 0px;
+        
+        div{
+            min-height: 40vh;
+            border-color: rgb(56, 98, 153) !important;
+            &:hover{
+                background-color:#62BBC1 ;
+                h4{
+                    color: black;
+                }
+                color:$babyPowder;
+            }
+            img{
+                height: 35vh;
+            }
+        }
+    }
+    @media screen and (max-width:411px){
+        width: 100vw !important
+    }
+}

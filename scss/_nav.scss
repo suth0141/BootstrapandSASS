@@ -1,0 +1,23 @@
+.navbar{
+    font-family: $headerFont;
+    background: $maastrichiBlue;
+    .navbar-toggler {
+        background-color: $babyPowder;
+    }
+    img{
+       height:40px;
+       width: 40px; 
+    }
+    div{
+        ul{
+            li{
+                a{
+                    color: $babyPowder !important;
+                    &:hover{
+                        border-bottom: 1px solid $babyPowder;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@import "./variable";
+.container {
+  font-family: $bodyFont;
+  width: 80vw !important;
+  background-color: $lightGreay;
+  input:invalid {
+    border: 1px solid $error;
+  }
+  .border {
+    border-color: rgb(56, 98, 153) !important;
+  }
+  @media screen and (max-width: 411px) {
+    width: 100vw !important;
+  }
+}

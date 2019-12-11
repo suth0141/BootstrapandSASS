@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="./img/titleimg.png" type="image/png">
+</head>
+
+<body>
+    <!-- Navigation Bar starts -->
+    <nav class="navbar navbar-expand-sm border-bottom-2 fixed-top">
+        <button class="navbar-toggler navbar-light" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="collapse_target">
+            <!-- <img src="./img/logo.png" class="navbar-brand"> -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active mx-3">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item border-bottom mx-3">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- Navigation Bar starts -->
+
+    <!-- Header Starts -->
+    <header>
+        <div class="row mt-5">
+            <div class="col-6 col-sm-6 col-lg-8 mt-3 ml-5 d-flex flex-column justify-content-center">
+                <div class="display-3">
+                    Contact for Hiring
+                </div>
+                <div class="display-5 mt-3">
+                    Fillout form.
+                </div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col-8 justify-content-center">
+                        <img src="./img/myAvatar.svg" class="img-fluid rounded-circle" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Main content Starts -->
+
+    <div class="container mt-4 p-3">
+        <form>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6 px-3">
+                    <Fieldset class="border p-2">
+                        <legend class="w-auto">Personal Details</legend>
+                        <!-- <h2 class="text-center">Personal Details</h2> -->
+                        <div class="row">
+                            <div class="formgroup col-6">
+                                <label for="firstName">First Name</label>
+                                <small id="firstNameText" class="text-muted">
+                                    (required)
+                                </small>
+                                <input type="text" id="firstName" class="form-control" required>
+                            </div>
+                            <div class="formgroup col-6">
+                                <label for="lastName">Last Name</label>
+                                <small id="firstNameText" class="text-muted">
+                                    (required)
+                                </small>
+                                <input type="text" id="lastName" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="formgroup">
+                            <label for="email">Email Id</label>
+                            <small id="firstNameText" class="text-muted">
+                                (required)
+                            </small>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="formgroup">
+                            <label for="text">Contact Number</label>
+                            <small id="firstNameText" class="text-muted">
+                                (required)
+                            </small>
+                            <input type="tel" id="tel" class="form-control" required>
+                        </div>
+                        <div class="formgroup">
+                            <label for="skypeID">Skype Id</label>
+                            <input type="text" id=skypeID class="form-control">
+                        </div>
+                        <div class="formgroup">
+                            <label for="postition">Position in company</label>
+                            <input type="text" id=postition class="form-control">
+                        </div>
+                    </Fieldset>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 px-3">
+                    <!-- <h2 class="text-center">Company Details</h2> -->
+                    <Fieldset class="border p-2">
+                        <legend class="w-auto">Company Details</legend>
+                        <div class="formgroup">
+                            <label for="companyName">Company Name</label>
+                            <input type="text" id="companyName" class="form-control">
+                        </div>
+                        <div class="formgroup">
+                            <label for="companyEmail">Company Email Id</label>
+                            <input type="email" id="companyEmail" class="form-control">
+                        </div>
+                        <div class="formgroup">
+                            <label for="companyTel">Company Contact Number</label>
+                            <input type="tel" id="companyTel" class="form-control">
+                        </div>
+                        <div class="formgroup">
+                            <label for="address">Address</label>
+                            <input type="text" id=address class="form-control">
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="formgroup">
+                                    <label for="city">City</label>
+                                    <input type="text" id=city class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="formgroup">
+                                    <label for="country">Country</label>
+                                    <input type="text" id=country class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="formgroup">
+                                    <label for="zipcode">Zipcode</label>
+                                    <input type="text" id=zipcode class="form-control">
+                                </div>
+                            </div>
+                    </Fieldset>
+                </div>
+                <div class="col-12 pt-3">
+                    <fieldset class="border p-2">
+                        <legend class="w-auto">Project Details</legend>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="formgroup">
+                                    <label for="startTime">Start Date</label>
+                                    <small id="firstNameText" class="text-muted">
+                                        (required)
+                                    </small>
+                                    <input type="date" id="startTime" class="form-control" required>
+                                </div>
+                                <div class="formgroup">
+                                    <label for="endTime">End Date</label>
+                                    <small id="firstNameText" class="text-muted">
+                                        (required)
+                                    </small>
+                                    <input type="date" id="endTime" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="formgroup">
+                                    <label for="projectDetails">Project Details</label>
+                                    <small id="firstNameText" class="text-muted">
+                                        (required)
+                                    </small>
+                                    <textarea rows="4" class="form-control" id="projectDef"
+                                        placeholder="Explain little bit about project" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </div>
+            </div>
+    </div>
+
+    <div class="text-center">
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    </div>
+    </form>
+    </div>
+
+
+    <!-- Main content Ends -->
+
+    <!-- Footer Starts -->
+    <footer class="d-flex justify-content-center mt-4">
+        <a href="#" class="fa fa-facebook m-2"></a>
+        <a href="#" class="fa fa-github m-2"></a>
+        <a href="#" class="fa fa-google m-2"></a>
+        <a href="#" class="fa fa-linkedin m-2"></a>
+    </footer>
+    <!-- Footer Ends -->
+</body>
+
+</html>
